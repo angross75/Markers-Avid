@@ -6,7 +6,7 @@ import io
 st.title("Avid Locator Generator")
 
 # Upload del file
-uploaded_file = st.file_uploader("Carica un file CSV o Excel con 'timecode' e 'commento'", type=["csv", "xlsx"])
+uploaded_file = st.file_uploader("Carica un file CSV o Excel con 'timecode' e 'commento'", type=["txt", "pdf"])
 
 # Input del Clip Name
 clip_name = st.text_input("Clip Name", value="Mod Angelo")
